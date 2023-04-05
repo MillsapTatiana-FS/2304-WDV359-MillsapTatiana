@@ -56,7 +56,7 @@ The main problem that crystal lovers run into is finding a reliable source for c
 
 *Explain your audience’s pain points that are contributing to their defined problem and their impact on the user. Primary Research should support your explanations.*
 
-The main pain point is finding crystals from an authentic source.
+The main pain point is finding crystals from an authentic source that you won't be overcharged for or have to wait close to months to receive.
 
 
 
@@ -80,7 +80,7 @@ The main competition is ETSY and this site is great but being able to verify whe
 
 *Define key features intended to provide solutions to specific problems and pain points you have identified. These key features should be specifically defined in response to problems / pain points. More generic features like User Authentication should not be defined here.*
 
-The key feature will allow a user to click on a location link that will take the user to the infomration regarding the mine that the crystal came from. The user will also be able to login and possibly save crystals to a favorites list.
+The key feature will allow a user to click on a location link that will take the user to the information regarding the mine that the crystal came from. The user will also be able to login and possibly save crystals to a favorites list.
 
 
 
