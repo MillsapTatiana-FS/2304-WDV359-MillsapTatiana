@@ -1,7 +1,7 @@
 import React from 'react';
 import { client } from '../../lib/client';
-import { getServerSideProps } from './api/hello/route';
 import { Product, FooterBanner, HeroBanner } from '../../components';
+import product from '../../sanityecommerce/schemas/product';
 
 const Home = ({ products, bannerData }) => {
   return (
