@@ -1,5 +1,7 @@
 import {createClient} from '@sanity/client';
 import imageUrlBuilder from '@sanity/image-url';
+import Img from 'next/image';
+import { useNextSanityImage } from 'next-sanity-image';
 
 export const client = createClient({
   projectId: 'f3x5z350',
@@ -13,15 +15,39 @@ const builder = imageUrlBuilder(client);
 
 export const urlFor = (source) => builder.image(source);
 
-export const getServerSideProps = async () => {
-  const query = '*[_type == "product"]';
-  const products = await client.fetch(query);
+const Page = ({ mySanityData }) => {
+	const imageProps = useNextSanityImage(configuredSanityClient, mySanityData.image);
 
-  const bannerQuery = '*[_type == "banner"]';
-  const bannerData = await client.fetch(bannerQuery);
+	return (
+		<Img
+			{...imageProps}
+			style={{ width: '100%', height: 'auto' }} // layout="responsive" prior to Next 13.0.0
+			sizes="(max-width: 800px) 100vw, 800px"
+			placeholder="blur"
+			blurDataURL={mySanityData.image.asset.metadata.lqip}
+		/>
+	);
+};
 
+export const getServerSideProps = async function (context) {
+  const { slug = '' } = context.query;
 
-  return {
-    props: { products, bannerData }
-  }
-}
+	const data = await configuredSanityClient.fetch(
+		`{
+			"mySanityData": *[_type == "mySanityType" && slug.current == $slug][0] {
+				image {
+					asset->{
+						...,
+						metadata
+					}
+				}
+			}
+		}`,
+		{ slug }
+	);
+
+	return { props: data };
+};
+
+export default Page;
+
