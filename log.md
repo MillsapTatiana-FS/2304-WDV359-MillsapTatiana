@@ -42,7 +42,14 @@ Decided on if I will have to use an API or create my own personal database for m
 
 ### Week 3
 
-Stay tuned, this stand up is coming soon...
+⚙️ Overview - What I worked on this past week
+<br>
+🌵 Challenges - Currently having a React Render issue that I'm working through to fix.
+<br>
+🏆 Accomplishments - Work in progress...
+<br>
+🔮 Next Steps - Getting the React Render issue solved so that I can see what is being created. 
+
 
 ### Week 4
 
