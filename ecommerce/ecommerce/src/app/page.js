@@ -6,8 +6,7 @@ import product from '../../sanityecommerce/schemas/product';
 const Home = ({ products, bannerData }) => {
   return (
     <div>
-      <HeroBanner heroBanner={bannerData} />
-
+      <HeroBanner heroBanner={bannerData.length && bannerData[0]}  />
       <div className="products-heading">
         <h2>Best Selling Crystals</h2>
         <p>Crystals of many variations</p>
