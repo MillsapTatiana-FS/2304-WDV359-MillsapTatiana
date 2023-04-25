@@ -1,0 +1,4 @@
+ # Topic: Security and Compliance
+ ### GitHub code scanning feature to identify vulnerabilities and errors in code. 
+
+You can use a feature called "code scanning" to examine the code in a GitHub repository and look for bugs and security flaws. Any issues found by the analysis are displayed on GitHub. Code scanning can help you identify, classify, and prioritize repairs for bugs that are already present in your code. In addition to being accessible as a GitHub Advanced Security tool for GitHub Enterprise private repositories, code scanning is free for all public repositories. Additionally, GitHub made all public repositories compatible with the free scanning of exposed secrets (such auth tokens and credentials).
