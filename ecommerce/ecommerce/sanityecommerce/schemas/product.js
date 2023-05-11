@@ -36,5 +36,10 @@ export default {
       title: 'Details',
       type: 'string',
     },
+    {
+      name: 'source',
+      title: 'Sourced From',
+      type: 'url',
+    },
   ],
 }
