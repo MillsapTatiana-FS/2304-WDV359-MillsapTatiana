@@ -19,6 +19,12 @@
     },
     "stripeSessionId": {
       "type": "string"
+    },
+    "items": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::item.item",
+      "mappedBy": "orders"
     }
   }
 }
