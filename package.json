@@ -1,0 +1,23 @@
+{
+  "name": "2304-wdv359-millsaptatiana",
+  "version": "1.0.0",
+  "description": "Project and Portfolio 6",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MillsapTatiana-FS/2304-WDV359-MillsapTatiana.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MillsapTatiana-FS/2304-WDV359-MillsapTatiana/issues"
+  },
+  "homepage": "https://github.com/MillsapTatiana-FS/2304-WDV359-MillsapTatiana#readme"
+}
