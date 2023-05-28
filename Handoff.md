@@ -12,9 +12,9 @@
    - Task 3: Conduct additional performance testing and optimize if necessary.
 
 3. Important Resources: The following resources have been instrumental in the development process:
-   - React Js: React JS is a JavaScript library used in web development to build interactive elements on websites.
-   - Sanity: Is an open source headless real-time CMS, that you can customize with JavaScript and React. Efficient editing, and instant UI for complex fields.
-   - Heroku: Is being used to deploy, manage, and scale modern apps.
+   - Next.js is a React framework that gives you building blocks to create web applications.
+   - Sanity is an open source headless real-time CMS, that you can customize with JavaScript and React. Efficient editing, and instant UI for complex fields.
+   - Heroku is being used to deploy, manage, and scale modern apps.
 
 4. Pending Issues: Please be aware of the outstanding tasks mentioned above.
 
